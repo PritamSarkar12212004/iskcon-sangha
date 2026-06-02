@@ -1,4 +1,4 @@
-import { View, Text } from 'react-native'
+import './global.css';
 import React from 'react'
 import { Provider } from 'react-redux';
 import { store } from './src/store/redux/store';
@@ -6,6 +6,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { PaperProvider } from 'react-native-paper';
+import RootNavigation from './src/navigations/RootNavigation';
 
 const App = () => {
   return (
@@ -14,9 +15,7 @@ const App = () => {
         <Provider store={store}>
           <PaperProvider>
             <NavigationContainer>
-              <View>
-                <Text>App</Text>
-              </View>
+              <RootNavigation />
             </NavigationContainer>
           </PaperProvider>
         </Provider>
