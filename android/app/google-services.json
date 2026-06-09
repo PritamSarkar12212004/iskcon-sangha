@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "400398074539",
+    "project_id": "iskcon-sangha",
+    "storage_bucket": "iskcon-sangha.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:400398074539:android:10f03b5d21c6ad8f606dee",
+        "android_client_info": {
+          "package_name": "com.iskcon_sangha"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAV928TfZJACPHaMCScg7srhcGsTlZ09eA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
